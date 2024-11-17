@@ -9,7 +9,7 @@
     "kor1": {
       "title": "Точка возле бани",
       "type": "equirectangular",
-      "panorama": "https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/img/img_20240302_111916.jpg",
+      "panorama": "img/img_20240302_111916.jpg",
       "autoLoad": true,
       "yaw": 0,
       "pitch": 0,
@@ -23,7 +23,7 @@
           "type": "scene",
           "text_pint": "Коридор6",
           "sceneId": "kor6",
-          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene2.json"
+          "panorama_url":"scene2.json"
         },
         {
           "title": "Коридор6",
@@ -34,7 +34,7 @@
           "type": "scene",
           "text_pint": "Коридор6",
           "sceneId": "kor6",
-          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene3.json"
+          "panorama_url":"scene3.json"
         }
       ]
     }
