@@ -9,7 +9,7 @@
     "kor1": {
       "title": "Точка возле ёлки",
       "type": "equirectangular",
-      "panorama": "img/img_20240302_112120.jpg",
+      "panorama": "https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/img/img_20240302_112120.jpg",
       "autoLoad": true,
       "yaw": 136.73717282735174,
       "pitch": -9.732271154009883,
@@ -23,7 +23,7 @@
           "type": "scene",
           "text_pint": "Коридор6",
           "sceneId": "kor6",
-          "panorama_url":"scene3.json"
+          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene3.json"
         },
         {
           "title": "Точка возле бани",
@@ -34,7 +34,7 @@
           "type": "scene",
           "text_pint": "Коридор6",
           "sceneId": "kor6",
-          "panorama_url":"scene.json"
+          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene.json"
         }
       ]
     }

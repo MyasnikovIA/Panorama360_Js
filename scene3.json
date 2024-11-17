@@ -8,7 +8,7 @@
   "scenes": {
     "kor1": {
       "title": "Точка на крыше дома",
-      "panorama": "img/img_20240302_112330.jpg",
+      "panorama": "https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/img/img_20240302_112330.jpg",
       "autoLoad": true,
       "yaw": 180,
       "pitch": 0,
@@ -22,7 +22,7 @@
           "type": "scene",
           "text_pint": "",
           "sceneId": "kor6",
-          "panorama_url":"scene.json"
+          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene.json"
         },
         {
           "title": "Точка возле елки",
@@ -33,7 +33,7 @@
           "type": "scene",
           "text_pint": "scene2.json",
           "sceneId": "kor6",
-          "panorama_url":"scene2.json"
+          "panorama_url":"https://raw.githack.com/MyasnikovIA/Panorama360_Js/main/scene2.json"
         }
       ]
     }
