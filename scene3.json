@@ -1,0 +1,41 @@
+{
+  "hotSpotDebug": false,
+  "hotPointDebug": true,
+  "sceneFadeDuration": 1000,
+  "default": {
+    "firstScene": "kor1"
+  },
+  "scenes": {
+    "kor1": {
+      "title": "Точка на крыше дома",
+      "panorama": "img/img_20240302_112330.jpg",
+      "autoLoad": true,
+      "yaw": 180,
+      "pitch": 0,
+      "hotSpots": [
+        {
+          "title": "ТОчка возле бани",
+          "pitch": -5.080308256079361,
+          "yaw": 172.38422949466752,
+          "point_pitch": -4.020537086983559,
+          "point_yaw": 139.7832423282381,
+          "type": "scene",
+          "text_pint": "",
+          "sceneId": "kor6",
+          "panorama_url":"scene.json"
+        },
+        {
+          "title": "Точка возле елки",
+          "pitch": -12.544038598428738,
+          "yaw": 113.77170932070388,
+          "point_pitch": -6.867949220287889,
+          "point_yaw": 131.86553220842853,
+          "type": "scene",
+          "text_pint": "scene2.json",
+          "sceneId": "kor6",
+          "panorama_url":"scene2.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "hotSpotDebug": false,
+  "hotPointDebug": true,
+  "sceneFadeDuration": 1000,
+  "default": {
+    "firstScene": "kor1"
+  },
+  "scenes": {
+    "kor1": {
+      "title": "Точка возле ёлки",
+      "type": "equirectangular",
+      "panorama": "img/img_20240302_112120.jpg",
+      "autoLoad": true,
+      "yaw": 136.73717282735174,
+      "pitch": -9.732271154009883,
+      "hotSpots": [
+        {
+          "title": "Точка на крыше дома",
+          "pitch": 8.72410953825181 ,
+          "yaw": 178.17456449442744,
+          "point_pitch": -6.907378040664156,
+          "point_yaw": 172.50388830027583,
+          "type": "scene",
+          "text_pint": "Коридор6",
+          "sceneId": "kor6",
+          "panorama_url":"scene3.json"
+        },
+        {
+          "title": "Точка возле бани",
+          "pitch": -8.08446691093325,
+          "yaw": 85.43873574417657,
+          "point_pitch": -1.1673124790062839,
+          "point_yaw": 136.78163453050658,
+          "type": "scene",
+          "text_pint": "Коридор6",
+          "sceneId": "kor6",
+          "panorama_url":"scene.json"
+        }
+      ]
+    }
+  }
+}

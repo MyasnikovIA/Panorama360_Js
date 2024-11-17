@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple example</title>
+    <link rel="stylesheet" href="lib/Pannellum2_5_6/pannellum.css"/>
+    <script type="text/javascript" src="lib/Pannellum2_5_6/pannellum.js"></script>
+    <script type="text/javascript" src="lib/Pannellum2_5_6/libpannellum.js"></script>
+</head>
+<body>
+<div id="canvas"></div>
+<script>
+    let canvas = document.getElementById('canvas');
+    canvas.style.width = (window.innerWidth-16)+'px';
+    canvas.style.height = (window.innerHeight-16)+'px';
+    let jsonObj = {
+        "hotSpotDebug": false,
+        "hotPointDebug": true,
+        "sceneFadeDuration": 1000,
+        "default": {
+            "firstScene": "kor1"
+        },
+        "scenes": {
+            "kor1": {
+                "title": "текст в левом нижнем углу",
+                "panorama": "img/img_20240302_112330.jpg",
+                "autoLoad": true,
+                // Направление взгляда yaw  pitch
+                "yaw": 180, // Ось X  от -180 до +180
+                "pitch": 0,  // Ось Y  от -90 до +90
+                "hotSpots": [
+                    {
+                        "title": "Точка возле бани",
+                        "yaw": 172.69391364740358,  // Расположение  метки, по которой будет осуществляться переход на новую сценцу
+                        "pitch": -3.5001450183561142,
+                        "point_yaw":142.20964301207036, // Направление X куда будет смотреть камера, после перехода на новую точку
+                        "point_pitch":-8.062128116060286,// Направление Y куда будет смотреть камера, после перехода на новую точку
+                        "panorama_url":"scene.json", // URL адрес JSON объекта, где  хрониться информация о  новой сцене (аналогичный JSON объект)
+                        "type": "scene",
+                        "text_pint": "Коридор6",
+                        "sceneId": "kor6"
+                    },
+                    {
+                        "title": "Точка возле елки",
+                        "pitch": -12.544038598428738,
+                        "yaw": 113.77170932070388,
+                        "point_pitch": -6.867949220287889,
+                        "point_yaw": 131.86553220842853,
+                        "type": "scene",
+                        "text_pint": "scene2.json",
+                        "sceneId": "kor6",
+                        "panorama_url":"scene2.json"
+                    }
+                ]
+            }
+        }
+    };
+    pannellum.viewer('canvas',jsonObj);
+</script>
+
+</body>
+</html>
